@@ -965,7 +965,7 @@ public class Gen_SN extends Gen_Neuron {
         //## statechart_method 
         public void EJCouplingEnter() {
             //#[ state ROOT.GenNeuronSC.state_12.EJCoupling.(Entry) 
-            //comment out
+            //comment out 2
             //#]
         }
         

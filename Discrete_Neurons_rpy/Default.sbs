@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 	- _myState = 8192;
 	- _name = "Default";
 	- _lastID = 10;
-	- weakCGTime = 1.19.2016::13:26:18;
+	- weakCGTime = 1.19.2016::13:41:12;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 6a19d696-1e12-44bf-bbb4-470858baa3de;
 	- _eventsBaseID = 18616;
@@ -91,7 +91,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _id = GUID 0083ca22-d263-4ac5-aada-706c0c65dac5;
 			}
 			- _lastID = 5;
-			- weakCGTime = 1.19.2016::13:26:18;
+			- weakCGTime = 1.19.2016::13:41:12;
 			- strongCGTime = 11.24.2015::15:1:23;
 			- Operations = { IRPYRawContainer 
 				- size = 10;
@@ -534,7 +534,7 @@ if (num_of_elec_synapses != 0){
 					- _myState = 10240;
 					- _name = "statechart_0";
 					- _lastID = 18;
-					- weakCGTime = 1.19.2016::13:26:18;
+					- weakCGTime = 1.19.2016::13:41:12;
 					- strongCGTime = 11.24.2015::15:1:23;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -995,12 +995,12 @@ gen(new evSendTrig());
 							- _entryAction = { IAction 
 								- _id = GUID 02f5918f-80eb-4cc0-aa3b-117c762763ee;
 								- _myState = 4096;
-								- _body = "//comment out";
+								- _body = "//comment out 2";
 							}
 						}
 					}
-					- _version = 1.19.2016::15:26:18;
-					- _baseVersion = 1.19.2016::15:26:18;
+					- _version = 1.19.2016::15:41:12;
+					- _baseVersion = 1.19.2016::15:41:12;
 					- _diagram = { IStateChartDiagram 
 						- _id = GUID 800ea5fd-fafe-4018-aad8-d9aaffb5b810;
 						- _myState = 10240;
@@ -1136,7 +1136,7 @@ gen(new evSendTrig());
 							}
 						}
 						- _name = "statechartdiagram_0";
-						- _lastModifiedTime = "1.19.2016::13:26:18";
+						- _lastModifiedTime = "1.19.2016::13:41:12";
 						- _graphicChart = { CGIStateChart 
 							- _id = GUID c3516157-77fd-4bbe-9d49-0bc119903a75;
 							- _myState = 2048;
@@ -1348,10 +1348,10 @@ gen(new evSendTrig());
 								}
 								- nAndLineCount = 5;
 								- andLinePoly = 2 858 0  858 624  ;
-								- andLinePoly = 2 0 624  858 624  ;
 								- andLinePoly = 2 1096 626  858 626  ;
-								- andLinePoly = 2 858 626  858 624  ;
-								- andLinePoly = 2 858 626  858 1060  ;
+								- andLinePoly = 2 858 624  0 624  ;
+								- andLinePoly = 2 858 624  858 626  ;
+								- andLinePoly = 2 858 1060  858 626  ;
 								- m_pInheritsFrom = { IHandle 
 									- _m2Class = "SGEElement";
 									- _id = GUID dd176f01-b9eb-4c05-807c-349226fe20a2;
@@ -3424,7 +3424,7 @@ gen(new evSendTrig());
 				- _id = GUID 0083ca22-d263-4ac5-aada-706c0c65dac5;
 			}
 			- _lastID = 6;
-			- weakCGTime = 1.19.2016::13:26:18;
+			- weakCGTime = 1.19.2016::13:41:12;
 			- strongCGTime = 11.24.2015::14:23:21;
 			- Operations = { IRPYRawContainer 
 				- size = 6;
@@ -3787,7 +3787,7 @@ if (num_of_elec_synapses != 0){
 					- _myState = 10240;
 					- _name = "statechart_0";
 					- _lastID = 36;
-					- weakCGTime = 1.19.2016::13:26:18;
+					- weakCGTime = 1.19.2016::13:41:12;
 					- strongCGTime = 11.24.2015::14:23:21;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -4247,12 +4247,12 @@ gen(new evSendTrig());
 							- _entryAction = { IAction 
 								- _id = GUID eaef7e79-f5ba-4155-9e74-c739dd13be33;
 								- _myState = 4096;
-								- _body = "//comment out";
+								- _body = "//comment out 2";
 							}
 						}
 					}
-					- _version = 1.19.2016::15:26:18;
-					- _baseVersion = 1.19.2016::15:26:18;
+					- _version = 1.19.2016::15:41:12;
+					- _baseVersion = 1.19.2016::15:41:12;
 					- _diagram = { IStateChartDiagram 
 						- _id = GUID 1d2a4565-d6a9-4716-bca5-dc08ae5b5fc6;
 						- _myState = 10240;
@@ -4425,7 +4425,7 @@ gen(new evSendTrig());
 							}
 						}
 						- _name = "statechartdiagram_0";
-						- _lastModifiedTime = "1.19.2016::13:26:18";
+						- _lastModifiedTime = "1.19.2016::13:41:12";
 						- _graphicChart = { CGIStateChart 
 							- _id = GUID 2734a8d6-b6a4-4d64-938c-5b1f8c652f9e;
 							- _myState = 2048;
@@ -4641,11 +4641,11 @@ gen(new evSendTrig());
 									- size = 0;
 								}
 								- nAndLineCount = 5;
-								- andLinePoly = 2 858 1060  858 626  ;
+								- andLinePoly = 2 858 626  1096 626  ;
+								- andLinePoly = 2 858 626  858 624  ;
+								- andLinePoly = 2 858 626  858 1060  ;
 								- andLinePoly = 2 858 624  0 624  ;
 								- andLinePoly = 2 858 624  858 0  ;
-								- andLinePoly = 2 858 624  858 626  ;
-								- andLinePoly = 2 858 626  1096 626  ;
 								- m_pInheritsFrom = { IHandle 
 									- _m2Class = "SGEElement";
 									- _id = GUID dd176f01-b9eb-4c05-807c-349226fe20a2;
@@ -6705,7 +6705,7 @@ gen(new evSendTrig());
 				- _id = GUID 0083ca22-d263-4ac5-aada-706c0c65dac5;
 			}
 			- _lastID = 2;
-			- weakCGTime = 1.19.2016::13:26:18;
+			- weakCGTime = 1.19.2016::13:41:12;
 			- strongCGTime = 11.24.2015::14:23:29;
 			- Operations = { IRPYRawContainer 
 				- size = 6;
@@ -7079,7 +7079,7 @@ if (num_of_elec_synapses != 0){
 					- _myState = 10240;
 					- _name = "statechart_0";
 					- _lastID = 26;
-					- weakCGTime = 1.19.2016::13:26:18;
+					- weakCGTime = 1.19.2016::13:41:12;
 					- strongCGTime = 11.24.2015::14:23:29;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -7539,12 +7539,12 @@ gen(new evSendTrig());
 							- _entryAction = { IAction 
 								- _id = GUID ff1ae572-ddd3-4a90-8f2d-70f14438ee2e;
 								- _myState = 4096;
-								- _body = "//comment out";
+								- _body = "//comment out 2";
 							}
 						}
 					}
-					- _version = 1.19.2016::15:26:18;
-					- _baseVersion = 1.19.2016::15:26:18;
+					- _version = 1.19.2016::15:41:12;
+					- _baseVersion = 1.19.2016::15:41:12;
 					- _diagram = { IStateChartDiagram 
 						- _id = GUID 58f11d82-ee23-4324-a14d-1f5a0fd05c60;
 						- _myState = 10240;
@@ -7680,7 +7680,7 @@ gen(new evSendTrig());
 							}
 						}
 						- _name = "statechartdiagram_0";
-						- _lastModifiedTime = "1.19.2016::13:26:18";
+						- _lastModifiedTime = "1.19.2016::13:41:12";
 						- _graphicChart = { CGIStateChart 
 							- _id = GUID 6471c35c-7552-4415-a28c-8c927bfb8278;
 							- _myState = 2048;
@@ -7896,11 +7896,11 @@ gen(new evSendTrig());
 									- size = 0;
 								}
 								- nAndLineCount = 5;
-								- andLinePoly = 2 1096 626  858 626  ;
+								- andLinePoly = 2 858 626  1096 626  ;
+								- andLinePoly = 2 858 626  858 624  ;
+								- andLinePoly = 2 858 626  858 1060  ;
 								- andLinePoly = 2 858 624  0 624  ;
 								- andLinePoly = 2 858 624  858 0  ;
-								- andLinePoly = 2 858 624  858 626  ;
-								- andLinePoly = 2 858 1060  858 626  ;
 								- m_pInheritsFrom = { IHandle 
 									- _m2Class = "SGEElement";
 									- _id = GUID dd176f01-b9eb-4c05-807c-349226fe20a2;
@@ -12314,7 +12314,7 @@ interNeurons[2].gen(new evTrig());  */
 				- _id = GUID 0083ca22-d263-4ac5-aada-706c0c65dac5;
 			}
 			- _lastID = 31;
-			- weakCGTime = 1.19.2016::13:26:18;
+			- weakCGTime = 1.19.2016::13:41:12;
 			- strongCGTime = 11.24.2015::15:1:23;
 			- Operations = { IRPYRawContainer 
 				- size = 5;
@@ -12704,7 +12704,7 @@ interNeurons[2].gen(new evTrig());  */
 					- _myState = 10240;
 					- _name = "statechart_0";
 					- _lastID = 13;
-					- weakCGTime = 1.19.2016::13:26:18;
+					- weakCGTime = 1.19.2016::13:41:12;
 					- strongCGTime = 11.24.2015::15:1:23;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -13056,11 +13056,11 @@ gen(new evSendTrig());
 							- _entryAction = { IAction 
 								- _id = GUID 315186ab-3ed4-43fa-96dd-d5f469e45c86;
 								- _myState = 4096;
-								- _body = "//comment out";
+								- _body = "//comment out 2";
 							}
 						}
 					}
-					- _version = 1.19.2016::15:26:18;
+					- _version = 1.19.2016::15:41:12;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = { IStateChartDiagram 
 						- _id = GUID d40ac4d7-3c16-479c-ab45-a2ae045d5500;
@@ -13133,7 +13133,7 @@ gen(new evSendTrig());
 							}
 						}
 						- _name = "statechartdiagram_0";
-						- _lastModifiedTime = "1.19.2016::13:26:18";
+						- _lastModifiedTime = "1.19.2016::13:41:12";
 						- _graphicChart = { CGIStateChart 
 							- _id = GUID 115cd53d-e837-4d4b-9a3b-733d2d33336d;
 							- m_type = 0;
